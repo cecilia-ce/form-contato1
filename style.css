@@ -1,0 +1,70 @@
+:root {
+    --letraeborda: #FFE3E3;
+    --fundo: #3C3131;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.quadrado{
+    background-color: var(--fundo); 
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding: 30px 30px;
+}
+
+.grupo {
+    border-color: var(--letraeborda);
+    width: 400px;
+    margin-left: -2px;
+    padding: 40px 30px;
+}
+
+#titulo {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--letraeborda);
+    margin-top: auto;
+    text-align: center;
+}
+
+#subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: var(--letraeborda);
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+
+.inputnome input{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputemail input{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+}
+
+.inputmsg textarea{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+}
