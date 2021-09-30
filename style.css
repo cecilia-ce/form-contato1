@@ -71,24 +71,13 @@
     padding: 8px;
 }
 
-
-
-.inputnome input{
+button {
+    cursor: pointer;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 13px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 10px 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.inputemail input{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 13px;
-}
-
-.inputmsg textarea{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 13px;
+    background: var(--letraeborda);
+    color: var(--fundo);
+    border: none;
+    padding: 8px 25px;
+    
 }
